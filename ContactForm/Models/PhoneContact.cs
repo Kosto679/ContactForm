@@ -9,7 +9,7 @@ namespace ContactForm.Models
         public int Id { get; set; }
 
 
-        [ForeignKey("PersondetsId")]
+        //[ForeignKey("PersondetsId")]
         public int? CustomerId { get; set; }
         
         public virtual Customer Customer { get; set; }

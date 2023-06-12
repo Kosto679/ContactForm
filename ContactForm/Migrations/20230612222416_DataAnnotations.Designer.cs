@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ContactForm.Migrations
 {
     [DbContext(typeof(FormContext))]
-    [Migration("20230612164410_DataAnnotations")]
+    [Migration("20230612222416_DataAnnotations")]
     partial class DataAnnotations
     {
         /// <inheritdoc />
